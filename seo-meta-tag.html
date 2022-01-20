@@ -33,6 +33,43 @@
 <!-- google analytics here -->
 
 
+<!-- google search index schema -->
+
+  <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebSite",
+                "@id": "http://websiteadddress/#website",
+                "url": "http://websiteadddress/",
+                "name": "page title name here",
+                "description": " All type of AI &amp; Machine Learning Solutions Provider company (Ireland)",
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "http://websiteadddress/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "en-US"
+            }, {
+                "@type": "WebPage",
+                "@id": "http://websiteadddress/#webpage",
+                "url": "http://websiteadddress/",
+                "name": "page title name here",
+                "isPartOf": {
+                    "@id": "http://websiteadddress/#website"
+                },
+                "datePublished": "2022-01-27T05:14:57+00:00",
+                "dateModified": "2022-01-31T10:45:55+00:00",
+                "description": "page discription write here!",
+                "inLanguage": "en-US",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["http://websiteadddress/"]
+                }]
+            }]
+        }
+    </script>
+
 
 NOTE:
 1. also use google tag manager/google analitics
